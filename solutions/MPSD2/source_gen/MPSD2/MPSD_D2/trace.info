@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:021d8958-464c-43c2-88fd-9e30f5f1ffe4(MPSD2.MPSD_D2)/2928114014086845753">
+    <file name="MPS_D2.java">
+      <node id="2928114014086845957" at="7,42,8,66" concept="0" />
+      <node id="2928114014086845801" at="7,0,10,0" concept="1" trace="main#([Ljava/lang/String;)V" />
+      <scope id="2928114014086845807" at="7,42,8,66" />
+      <scope id="2928114014086845801" at="7,0,10,0">
+        <var name="args" id="2928114014086845802" />
+      </scope>
+      <unit id="2928114014086845753" at="6,0,11,0" name="MPSD2.MPSD_D2.MPS_D2" />
+    </file>
+  </root>
+</debug-info>
+
