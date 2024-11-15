@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="db461f74-afb0-435e-8b70-a436b7a3fedc" name="NewLanguage" version="-1" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -58,6 +59,9 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
+    <language id="db461f74-afb0-435e-8b70-a436b7a3fedc" name="NewLanguage">
+      <concept id="800018550491688007" name="NewLanguage.structure.MyConcept" flags="ng" index="0Rp3_" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -95,5 +99,6 @@
     </node>
     <node concept="3Tm1VV" id="2yyK2UnvlkU" role="1B3o_S" />
   </node>
+  <node concept="0Rp3_" id="Gqfa8bLY8g" />
 </model>
 
